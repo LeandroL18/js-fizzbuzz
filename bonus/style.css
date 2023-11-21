@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    text-align: center;
+    background-color: brown;
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+    padding: 20px 100px 20px 100px;
+}
+
+.square{
+    width: 9%;
+    height: 70px;
+    background-color: beige;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
